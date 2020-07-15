@@ -8,13 +8,13 @@ This an updated portfolio using React.
 
 ___
 
-<img src="assets/images/aboutme.png"> 
+<img src="public/assets/images/aboutme.png"> 
 
 ___
 
-<img src="assets/images/portfolio.png">
+<img src="public/assets/images/portfolio.png">
 
 ___
 
 
-<img src="assets/images/contact.png"> 
+<img src="public/assets/images/contact.png"> 
