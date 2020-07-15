@@ -11,8 +11,21 @@ img {
   box-shadow: 3px 3px 3px gray;
 }
 
-about {
+main {
   margin-bottom: 100%;
+}
+
+main p {
+  color: black;
+  font-family: "Raleway", sans-serif;
+}
+h2 {
+  font-family: "Raleway", arial, sans-serif;
+}
+
+h4 {
+  color: rgb(12, 136, 181);
+  font-family: "Raleway", sans-serif;
 }
 /* 
 body {

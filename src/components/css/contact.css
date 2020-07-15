@@ -1,0 +1,20 @@
+form {
+    margin-bottom: 100%;
+}
+
+.body-text {
+  color: rgb(12, 136, 181);
+  margin-left: 10px;
+  font-size: 35px;
+  font-family: "Raleway", sans-serif;
+}
+
+#con {
+  color: rgb(12, 136, 181);
+  font-size: 40px;
+}
+
+h1 {
+  font-family: serif;
+  color: white;
+}

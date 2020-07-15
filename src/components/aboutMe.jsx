@@ -3,7 +3,8 @@ import "./css/aboutMe.css";
 
 const AboutMe = () => {
   return (
-      <div className="container p-5 about">
+    <main>
+      <div className="container p-5">
         <h2>About Me</h2>
         <hr />
         <div className="col-12">
@@ -42,6 +43,7 @@ const AboutMe = () => {
           </a>
         </div>
       </div>
+    </main>
   );
 };
 
