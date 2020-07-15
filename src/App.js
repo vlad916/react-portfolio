@@ -22,7 +22,7 @@ function App() {
           <Redirect to="/not-found"></Redirect>
         </Switch>
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </React.Fragment>
   );
 }

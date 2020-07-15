@@ -1,40 +1,51 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
-import './nav.css';
+import './css/nav.css';
 
 
 const NavBar = () => {
   return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-light" id="header">
-        <Link className="navbar-brand" to="/">
-          Angelo Ungos
-        </Link>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav">
-            <NavLink className="nav-item nav-link" to="/aboutMe">
-              About Me <span className="sr-only">(current)</span>
-            </NavLink>
-            <NavLink className="nav-item nav-link" to="/portfolio">
-              Portfolio
-            </NavLink>
-            <NavLink className="nav-item nav-link" to="/contact">
-              Contact
-            </NavLink>
+
+      <nav className="navbar navbar-dark navbar-expand-sm">
+        <div className="container-fluid">
+          <span className="navbar-text">
+            <Link className="nav-link" to="/">
+              <h1>Angelo Ungos</h1>
+            </Link>
+          </span>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbar"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbar">
+            <ul className="navbar-nav ml-auto">
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/aboutMe">
+                  About Me
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className="nav-link" to="/portfolio">
+                  Portfolio
+                </NavLink>
+              </li>
+              <li>
+                <NavLink className="nav-link" to="contact">
+                  Contact
+                </NavLink>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
+   
   );
 };
 
 export default NavBar;
+
+

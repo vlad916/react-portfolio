@@ -1,8 +1,22 @@
 import React from "react";
-import './port.css';
+import "./css/portfolio.css";
 
 const Portfolio = () => {
-  return <h1 className="port">Portfolio</h1>;
+  return (
+    <main>
+      <div className="container p-5">
+        <div>
+          <h2>
+            <strong>Portfolio</strong>
+          </h2>
+          <hr />
+        </div>
+        <div className="row">
+          
+        </div>
+      </div>
+    </main>
+  );
 };
 
 export default Portfolio;
