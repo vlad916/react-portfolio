@@ -5,6 +5,7 @@ import AboutMe from "./components/aboutMe";
 import Contact from "./components/contact";
 import Portfolio from "./components/portfolio";
 import NotFound from "./components/notFound";
+import Footer from './components/footer';
 import "./App.css";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Redirect to="/not-found"></Redirect>
         </Switch>
       </main>
+      {/* <Footer /> */}
     </React.Fragment>
   );
 }
