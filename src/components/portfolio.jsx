@@ -17,7 +17,7 @@ const Portfolio = () => {
               <img
                 src="assets/images/project1.png"
                 alt="bootsrap logo"
-                class="img-fluid"
+                className="img-fluid"
               />
             </div>
             <div className="container text-center mt-5">

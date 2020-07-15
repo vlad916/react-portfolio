@@ -4,7 +4,7 @@ import "./css/aboutMe.css";
 const AboutMe = () => {
   return (
     <main>
-      <div className="container p-5">
+      <div className="container-fluid p-5">
         <h2>About Me</h2>
         <hr />
         <div className="col-12">

@@ -12,15 +12,15 @@ const Footer = () => {
             <i className="far fa-envelope fa-2x mx-3"></i>
           </a>
           <a href="https://www.linkedin.com/in/angelo-ungos-064619197/">
-            <i class="fab fa-linkedin-in fa-2x mx-3"></i>
+            <i className="fab fa-linkedin-in fa-2x mx-3"></i>
           </a>
           <a href="https://github.com/vlad916">
-            <i class="fab fa-github fa-2x mx-3"></i>
+            <i className="fab fa-github fa-2x mx-3"></i>
           </a>
         </div>
       </div>
-      <div class="row">
-        <div class="container-fluid text-center">
+      <div className="row">
+        <div className="container-fluid text-center">
           <p id="copy">
             <span>&#169;</span> 2019 Angelo Ungos
           </p>

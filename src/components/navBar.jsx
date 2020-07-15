@@ -1,11 +1,10 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
-import './css/nav.css';
-
+import "./css/navBar.css";
 
 const NavBar = () => {
   return (
-
+    <div id="header">
       <nav className="navbar navbar-dark navbar-expand-sm">
         <div className="container-fluid">
           <span className="navbar-text">
@@ -42,10 +41,8 @@ const NavBar = () => {
           </div>
         </div>
       </nav>
-   
+    </div>
   );
 };
 
 export default NavBar;
-
-
