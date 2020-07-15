@@ -3,8 +3,8 @@ import "./css/aboutMe.css";
 
 const AboutMe = () => {
   return (
-      <div className="about">
-        <h2 style={{ marginTop: "50px" }}>About Me</h2>
+      <div className="container p-5 about">
+        <h2>About Me</h2>
         <hr />
         <div className="col-12">
           <img
