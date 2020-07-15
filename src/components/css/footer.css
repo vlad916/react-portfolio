@@ -2,9 +2,19 @@ footer {
   background-color: rgb(12, 136, 181);
   margin-top: auto;
   padding: 10px;
-
-
 }
+
+footer a {
+  font-size: 10px;
+  color: white;
+}
+footer p {
+  color: white;
+}
+footer a:hover {
+  color: black;
+}
+
 
 
 /* body {
